@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+    
+ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+section {
+    display: ruby-text;
+    padding: 1%;
+}
+
+.listas {
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.nome {
+    font-size: 2rem;      
+}
