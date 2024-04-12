@@ -6,6 +6,10 @@
     font-weight: 300;
     font-style: normal;
 }
+
+header {
+    background-color: white;
+}
     
 ul {
     display: flex;
@@ -25,4 +29,14 @@ section {
 
 .nome {
     font-size: 2rem;      
+}
+
+main {
+    background-color: #fff8ec;
+}
+
+.minha-foto {
+    width: 17vw;
+    border-radius: 10rem;
+    margin-top: 2rem;
 }
