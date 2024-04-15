@@ -35,8 +35,25 @@ main {
     background-color: #fff8ec;
 }
 
+
 .minha-foto {
     width: 17vw;
-    border-radius: 10rem;
+    border-radius: 6rem;
     margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.gaby {
+    font-weight: bold
+}
+
+.icone {
+    font-size: 15px;
+}
+
+.infos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
