@@ -18,8 +18,10 @@ ul {
 }
 
 section {
-    display: ruby-text;
+    display: flex;
     padding: 1%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .listas {
@@ -31,14 +33,14 @@ section {
     font-size: 2rem;      
 }
 
-main {
-    background-color: #fff8ec;
+body {
+    background-color: #bdbdbd29;
 }
 
 
 .minha-foto {
     width: 17vw;
-    border-radius: 6rem;
+    border-radius: 10rem;
     margin-top: 2rem;
     margin-left: 2rem;
 }
@@ -56,4 +58,34 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-size: 1.6rem;
 }
+
+.sobre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 2rem 10%;
+    margin: 2rem 10%;
+    text-align: -webkit-center;
+    
+}
+
+.sobre div {
+    width: 50%;
+}
+
+
+.titulo {
+    font-size: 1.8rem;
+    font-weight: initial;
+}
+
+.texto-sobre-mim {
+    width: 18rem;
+    font-size: 1.1rem;
+    margin-top: 1%;
+    line-height: 1.4em;
+}
+
+
