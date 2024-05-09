@@ -101,20 +101,32 @@ body {
 }
 
 .projetos {
-    width: 90vw;
-    margin-top: 5%;
+    background-color: #d7d7d7;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
 .titulo-projeto {
+    font-weight: 400;
     display: flex;
     justify-content: center;
-    font-weight: 400;
+    margin-top: 3%;
 }
 
 .informativo-jogo {
-    font-size: 1.9rem;
-    margin: 5% 12%;
+    font-size: 30px;
+    margin: 2% 32% 0 33%;
 }
 
+.clique-aqui {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
 
+.icone-link {
+    color: inherit;
+}
