@@ -24,6 +24,15 @@ section {
     justify-content: space-between;
 }
 
+
+body {
+    background-color: #bdbdbd29;
+}
+
+hr {
+    border: solid 1px black;
+}
+
 .listas {
     font-size: 1.3rem;
     margin: 1rem;
@@ -31,10 +40,6 @@ section {
 
 .nome {
     font-size: 2rem;      
-}
-
-body {
-    background-color: #bdbdbd29;
 }
 
 
@@ -101,8 +106,7 @@ body {
 }
 
 .projetos {
-    background-color: #d7d7d7;
-    min-width: 100%;
+    /* min-width: 100%; */
     display: flex;
     justify-content: center;
 }
@@ -129,4 +133,15 @@ body {
 
 .icone-link {
     color: inherit;
+}
+
+.meu-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% 2%;
+    font-size: 1rem;
+}
+
+.infos-rodape {
+    font-weight: 500;
 }
