@@ -137,11 +137,15 @@ hr {
 
 .meu-footer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin: 2% 2%;
     font-size: 1rem;
 }
 
 .infos-rodape {
     font-weight: 500;
+}
+
+.notbook {
+    font-size: 3rem;
 }
